@@ -22,3 +22,5 @@ The Factory Method Pattern defines an interface for creating an object, but lets
 The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
 ### Singleton
 The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
+### Command
+The Command Pattern encapsulates a request as an object, thereby letting you parameterize other objects with different requests, queue or log requests, and support undoable operations.
