@@ -20,3 +20,5 @@ The Decorator Pattern attaches additional responsibilities to an object dynamica
 The Factory Method Pattern defines an interface for creating an object, but lets subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 ### Abstract Factory
 The Abstract Factory Pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes.
+### Singleton
+The Singleton Pattern ensures a class has only one instance, and provides a global point of access to it.
