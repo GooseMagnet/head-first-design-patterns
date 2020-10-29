@@ -8,6 +8,7 @@
 * Classes should be open for extension, but closed for modification
 * Depend upon abstractions. Do not depend upon concrete classes
 * Principle of least knowledge: talk only to your immediate friends
+* Don't call us. We'll call you (The Hollywood Principle)
 
 ## Design Patterns
 
@@ -29,3 +30,5 @@ The Command Pattern encapsulates a request as an object, thereby letting you par
 The Adapter Pattern converts the interface of a class into another interface the clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 ### Facade
 The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
+### Template Method
+The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
