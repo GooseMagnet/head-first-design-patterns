@@ -9,6 +9,7 @@
 * Depend upon abstractions. Do not depend upon concrete classes
 * Principle of least knowledge: talk only to your immediate friends
 * Don't call us. We'll call you (The Hollywood Principle)
+* A class should have only one reason to change
 
 ## Design Patterns
 
@@ -32,3 +33,7 @@ The Adapter Pattern converts the interface of a class into another interface the
 The Facade Pattern provides a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.
 ### Template Method
 The Template Method Pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm’s structure.
+### Iterator
+The Iterator Pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
+### Composite
+The Composite Pattern allows you to compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
