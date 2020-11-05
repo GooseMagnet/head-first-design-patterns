@@ -1,5 +1,11 @@
 # Head First Design Patterns
 
+## Definitions
+* **Pattern** - a solution to a problem in a context.
+* **Context** - the situation in which the pattern applies. This should be a recurring situation.
+* **Problem** - refers to the goal you are trying to achieve in this context, but it also refers to any constraints that occur in the context.
+* **Solution** - a general design that anyone can apply which resolve the goal and set of constraints.
+
 ## Design Principles
 * Encapsulate what varies
 * Program to an interface, not an implementation
